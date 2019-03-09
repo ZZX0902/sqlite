@@ -1,0 +1,14 @@
+package com.example.zhangzhaoxiang.hmandroid;
+
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class clist2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_clist2);
+    }
+}

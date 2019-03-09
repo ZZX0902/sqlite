@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <TextView
+
+        android:id="@+id/teview1"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="70sp"
+
+        android:text="注册"
+
+
+        android:textSize="40sp"
+
+        android:paddingTop="10sp"
+
+        android:paddingLeft="20sp"/>
+
+    <EditText
+
+        android:id="@+id/editview1"
+
+        android:layout_marginTop="50sp"
+
+        android:layout_width="300sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textColorHint="#FF8B44"
+
+        android:hint="手机号"/>
+
+    <EditText
+
+        android:id="@+id/editview2"
+
+        android:layout_marginTop="30sp"
+
+        android:layout_width="300sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textColorHint="#FF8B44"
+
+        android:hint="密码"
+
+        android:password="true"/>
+
+    <EditText
+
+        android:id="@+id/editview3"
+
+        android:layout_marginTop="30sp"
+
+        android:layout_width="300sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textColorHint="#FF8B44"
+
+        android:hint="确认密码"
+
+        android:password="true"/>
+
+
+
+    <Button
+
+        android:id="@+id/tijiao"
+
+        android:layout_width="300sp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:layout_marginTop="30sp"
+
+        android:text="注册"/>
+
+
+
+</LinearLayout>
